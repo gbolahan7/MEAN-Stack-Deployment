@@ -68,3 +68,21 @@
 `vi book.js`
 ![book model](/images/book-model.PNG)
 
+
+# STEP 4 - Access routes with angular js
+
+### create a public folder and add a file script.js 
+![script](/images/public-script.PNG)
+
+### Next, create an index.html and then start the server. The application can be access via the web browser using the public IP address and port 3300. This port needs to be created on the inbound rules in the EC2 instance
+
+
+![server-log](/images/web-terminal-log.PNG)
+
+
+
+![bookreg web](/images/bookregweb-final.PNG)
+
+
+## The Web app has been successfully deployed on the ubuntu server using AWS!
+
