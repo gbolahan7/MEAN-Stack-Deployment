@@ -29,9 +29,42 @@
 
 `sudo systemctl status mongodb`
 
-![node install](/images/mongodb-run.PNG)
+![mongodb](/images/mongodb-run.PNG)
 
 ### Install NPM & body-parser package
 `sudo apt install -y npm`
 
 `sudo npm install body-parser`
+
+### Create a folder 'Books' and initialize project
+`mkdir Books && cd Books`
+
+`npm init`
+
+### Add a server.js file and insert code
+`vi server.js`
+
+![server](/images/server.PNG)
+
+
+# Install Express and Set up routes to server
+
+## Step 3 - Install Express and routes
+
+`sudo npm install express mongoose`
+
+### Mongoose is used to set up a schema for the database to store data for the book register
+
+###  in books folder, Create apps folder and create route file
+`mkdir apps && cd apps`
+
+`vi routes.js`
+
+
+### Next, create models folder in apps folder
+`mkdir models && cd models`
+
+### create file book.js and paste code
+`vi book.js`
+![book model](/images/book-model.PNG)
+
